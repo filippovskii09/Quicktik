@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230713120908">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230715144301">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,9 +14,8 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">
+		<header class="header" data-scroll="40">
 			<div class="header__container">
-				<img src="img/main-decor.svg" class="main-decor" alt="">
 				<div class="header__main">
 					<a href="" class="header__logo"><img src="img/logo.svg" alt=""></a>
 					<div class="adaptive-menu">
@@ -47,19 +46,258 @@
 					<div class="header__line"></div>
 					<div class="header__btns">
 						<button data-da=".adaptive-menu__btns,1025,3" class="header__sign">Log In</button>
-						<button data-da=".adaptive-menu__btns,360,5" class="header__btn">Request a demo</button>
+						<button data-da=".adaptive-menu__btns,360,5" class="header__btn btn">Request a demo</button>
 					</div>
 				</div>
 			</div>
 		</header>
 		<main class="page">
+			<section class="page__main main">
+				<img src="img/main-decor.svg" class="main-decor" alt="">
+				<img src="img/adaptive-tablet-bg.svg" class="main-decor__tablet" alt="">
+				<div class="main__container">
+					<div class="main__content">
+						<h1 class="main__title">Welcome to the Future of Landings</h1>
+						<p class="main__text">Create screens right in your Figma. Connect different blocks and create awesome landings. Yes, it just takes a few minutes!</p>
+						<div class="main__actions">
+							<button class="main__btn btn">Request a demo</button>
+							<button class="main__video">
+								<img src="img/play.svg" alt="">
+								<span>Watch video</span>
+							</button>
+						</div>
+					</div>
+					<picture><source srcset="img/main/1.webp" type="image/webp"><img data-prlx-mouse data-prlx-dxy data-prlx-cx='80' data-prlx-a="200" src="img/main/1.jpeg" class="main-image__one" alt=""></picture>
+					<picture><source srcset="img/main/2.webp" type="image/webp"><img data-prlx-mouse data-prlx-dxr data-prlx-cx='80' data-prlx-a="200" src="img/main/2.jpeg" class="main-image__two" alt=""></picture>
+					<picture><source srcset="img/main/3.webp" type="image/webp"><img data-prlx-mouse data-prlx-dxy data-prlx-cx='80' data-prlx-a="200" src="img/main/3.jpeg" class="main-image__three" alt=""></picture>
+					<picture><source srcset="img/main/4.webp" type="image/webp"><img data-prlx-mouse data-prlx-dxr data-prlx-cx='80' data-prlx-a="200" src="img/main/4.jpeg" class="main-image__four" alt=""></picture>
+					<img src="img/main/adapt-image.svg" class="main-images__adaptive" alt="">
+				</div>
+				<img src="img/main/adapt-mobile-image.svg" class="main-images__mobile" alt="">
+
+			</section>
+			<section class="page__trust trust">
+				<div class="trust__container">
+					<h2 class="trust__title">Trusted by the fastest growing companies</h2>
+					<div class="trust__rows trust-rows-dn">
+						<div class="trust__row">
+							<div class="trust__column">
+								<img src="img/trust/1.svg" alt="" class="trust__image">
+								<p class="trust__text">Figma</p>
+							</div>
+							<div class="trust__column">
+								<img src="img/trust/2.svg" alt="" class="trust__image">
+								<p class="trust__text">Sketch</p>
+							</div>
+							<div class="trust__column">
+								<img src="img/trust/3.svg" alt="" class="trust__image">
+								<p class="trust__text">Pinterest</p>
+							</div>
+						</div>
+						<div class="trust__row">
+							<div class="trust__column">
+								<img src="img/trust/4.svg" alt="" class="trust__image">
+								<p class="trust__text">Dribbble</p>
+							</div>
+							<div class="trust__column">
+								<img src="img/trust/5.svg" alt="" class="trust__image">
+								<p class="trust__text">Behance</p>
+							</div>
+							<div class="trust__column">
+								<img src="img/trust/6.svg" alt="" class="trust__image">
+								<p class="trust__text">Github</p>
+							</div>
+						</div>
+					</div>
+					<div class="trust__rows trust-rows-db">
+						<div class="trust__row">
+							<div class="trust__column">
+								<img src="img/trust/1.svg" alt="" class="trust__image">
+								<p class="trust__text">Figma</p>
+							</div>
+							<div class="trust__column">
+								<img src="img/trust/2.svg" alt="" class="trust__image">
+								<p class="trust__text">Sketch</p>
+							</div>
+						</div>
+						<div class="trust__row">
+							<div class="trust__column">
+								<img src="img/trust/3.svg" alt="" class="trust__image">
+								<p class="trust__text">Pinterest</p>
+							</div>
+							<div class="trust__column">
+								<img src="img/trust/4.svg" alt="" class="trust__image">
+								<p class="trust__text">Dribbble</p>
+							</div>
+						</div>
+						<div class="trust__row">
+							<div class="trust__column">
+								<img src="img/trust/5.svg" alt="" class="trust__image">
+								<p class="trust__text">Behance</p>
+							</div>
+							<div class="trust__column">
+								<img src="img/trust/6.svg" alt="" class="trust__image">
+								<p class="trust__text">Github</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__image image">
+				<div class="image__wrapper">
+					<img src="img/image (1).svg" alt="" class="image__img">
+				</div>
+				<img src="img/splash.svg" class="image-splash" alt="">
+				<img src="img/splash-tablet.svg" class="image-splash-tablet" alt="">
+				<img src="img/splash-mobile.svg" class="image-splash-mobile" alt="">
+			</section>
+			<section class="page__layot layot">
+				<div class="layot__container">
+					<div class="layot__content">
+						<h2 class="layot__subtitle">create layouts</h2>
+						<h3 class="layot__title">Move fast, stay aligned, and build better - <span>together</span></h3>
+						<p class="layot__text">This resource contains all viewports versions for a landing page template based on components.</p>
+					</div>
+					<div class="layot__image">
+						<img src="img/layot/Group.svg" alt="">
+					</div>
+				</div>
+			</section>
+			<section class="page__analytics analytics">
+				<div class="analytics__container">
+					<div class="analytics__content">
+						<div class="analytics__subtitle">
+							<img src="img/analitycs/1.svg" alt="">
+							<p>analytics</p>
+						</div>
+						<h3 class="analytics__title">Create, collaborate your work in 1 place</h3>
+						<p class="analytics__text">Save time and coordinate with your team and push projects forward with the tools you use every day – all within Quickit.</p>
+					</div>
+					<div class="analytics__image">
+						<img src="img/analitycs/main.svg" alt="">
+					</div>
+				</div>
+			</section>
+			<section class="page__key key">
+				<div class="key__container">
+					<h2 class="key__subtitle">key benefits</h2>
+					<h3 class="key__title">Your business will reach <span>unprecedented heights</span></h3>
+					<div class="key__row">
+						<div class="key__image">
+							<img src="img/key/work.svg" alt="">
+						</div>
+						<div class="key__content">
+							<div class="key__column key-column">
+								<div class="key-column__line"></div>
+								<div class="key-column__textblock">
+									<p class="key-column__title">Be Organized</p>
+									<p class="key-column__text">Every team has a unique process for shipping software. Use an out-of-the-box workflow, or create one to match the way your team works.</p>
+								</div>
+							</div>
+							<div class="key__column key-column">
+								<div class="key-column__line"></div>
+								<div class="key-column__textblock">
+									<p class="key-column__title">Be Organized</p>
+									<p class="key-column__text">Every team has a unique process for shipping software. Use an out-of-the-box workflow, or create one to match the way your team works.</p>
+								</div>
+							</div>
+							<div class="key__column key-column">
+								<div class="key-column__line"></div>
+								<div class="key-column__textblock">
+									<p class="key-column__title">Be Organized</p>
+									<p class="key-column__text">Every team has a unique process for shipping software. Use an out-of-the-box workflow, or create one to match the way your team works.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__built built">
+				<div class="built__wrapper">
+					<img src="img/built/splash.svg" class="built__decor" alt="">
+					<h3 class="built__title">Built for Development and Design Teams</h3>
+					<p class="built__text">Subscript is built to help finance teams get more accurate revenue data, faster, way in-depth, and with a lot less effort. </p>
+					<button class="built__btn">
+						<span>Get Early Access</span>
+						<img src="img/built/arr.svg" alt="">
+					</button>
+				</div>
+			</section>
+			<div class="dots">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<section class="page__use use">
+				<div class="use__container">
+					<h3 class="use__title">Use Quickit to simplify <span>building and maintaining layouts</span></h3>
+					<p class="use__text">You can decide how you are working as a team first and then let the software work around you. The pace of delivery from idea to reality has exploded.</p>
+					<div class="use__image">
+						<picture><source srcset="img/use/graph.webp" type="image/webp"><img src="img/use/graph.png" alt=""></picture>
+					</div>
+				</div>
+			</section>
+			<div class="dots mt268">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<section class="page__read read">
+				<div class="read__container">
+					<div class="read__title">
+						<h3>Read our resources</h3>
+						<a href="" class="read__link">
+							<span>View Resources</span>
+							<img src="img/read/arr.svg" alt="">
+						</a>
+					</div>
+					<div class="read__row">
+						<div class="read__column">
+							<picture><source srcset="img/read/11.webp" type="image/webp"><img src="img/read/11.png" alt="" class="read__image"></picture>
+							<div class="read__name">
+								<img src="img/read/1.svg" alt="">
+								<span>video</span>
+							</div>
+							<h4 class="read__subtitle">Quickit: What you probably didn’t know</h4>
+							<a href="" class="read__btn">
+								<span>Watch Video</span>
+								<img src="img/read/arr.svg" alt="">
+							</a>
+						</div>
+						<div class="read__column">
+							<picture><source srcset="img/read/12.webp" type="image/webp"><img src="img/read/12.png" alt="" class="read__image"></picture>
+							<div class="read__name">
+								<img src="img/read/2.svg" alt="">
+								<span>video</span>
+							</div>
+							<h4 class="read__subtitle">Quickit: What you probably didn’t know</h4>
+							<a href="" class="read__btn">
+								<span>Watch Video</span>
+								<img src="img/read/arr.svg" alt="">
+							</a>
+						</div>
+						<div class="read__column">
+							<picture><source srcset="img/read/13.webp" type="image/webp"><img src="img/read/13.png" alt="" class="read__image"></picture>
+							<div class="read__name">
+								<img src="img/read/3.svg" alt="">
+								<span>video</span>
+							</div>
+							<h4 class="read__subtitle">Quickit: What you probably didn’t know</h4>
+							<a href="" class="read__btn">
+								<span>Watch Video</span>
+								<img src="img/read/arr.svg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230713120908"></script>
+	<script src="js/app.min.js?_v=20230715144301"></script>
 </body>
 
 </html>
